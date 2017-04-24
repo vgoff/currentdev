@@ -1,0 +1,10 @@
+.description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 3.6em;
+}
+
+.container {
+  display: flex;
+  padding: 0 1%;
+}

@@ -13,7 +13,7 @@ import build from './build';
 
 const remote = {
   name: 'github',
-  url: 'https://github.com/colt082295/SouthMSReact.git',
+  url: 'https://github.com/vgoff/currentdev.git',
   branch: 'gh-pages',
 };
 

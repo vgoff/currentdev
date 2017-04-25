@@ -1,0 +1,1250 @@
+<!doctype html><html class="no-js" lang="en"><head><meta charset="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><title>Untitled Page</title><meta name="description" content=""/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="apple-touch-icon" href="apple-touch-icon.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css"/><link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"/><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/spinkit/1.2.5/spinkit.min.css"/><link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"/><link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"/><style id="css">/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Correct the line height in all browsers.
+ * 3. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+
+/* Document
+   ========================================================================== */
+
+html {
+  font-family: sans-serif;
+
+  /* 1 */
+  line-height: 1.15;
+
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+
+  /* 3 */
+  -webkit-text-size-adjust: 100%;
+
+  /* 3 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in IE.
+ */
+
+figcaption,
+figure,
+main {
+
+  /* 1 */
+  display: block;
+}
+
+/**
+ * Add the correct margin in IE 8.
+ */
+
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box;
+
+  /* 1 */
+  height: 0;
+
+  /* 1 */
+  overflow: visible;
+
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace;
+
+  /* 1 */
+  font-size: 1em;
+
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+
+a {
+  background-color: transparent;
+
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+
+  /* 2 */
+}
+
+/**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */
+
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+/**
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none;
+
+  /* 1 */
+  text-decoration: underline;
+
+  /* 2 */
+  text-decoration: underline dotted;
+
+  /* 2 */
+}
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+
+b,
+strong {
+  font-weight: inherit;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+
+  /* 1 */
+  font-size: 1em;
+
+  /* 2 */
+}
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+audio,
+video {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+
+img {
+  border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif;
+
+  /* 1 */
+  font-size: 100%;
+
+  /* 1 */
+  line-height: 1.15;
+
+  /* 1 */
+  margin: 0;
+
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input {
+
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select {
+
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+html [type="button"], /* 1 */
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+
+  /* 2 */
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Change the border, margin, and padding in all browsers (opinionated).
+ */
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box;
+
+  /* 1 */
+  color: inherit;
+
+  /* 2 */
+  display: table;
+
+  /* 1 */
+  max-width: 100%;
+
+  /* 1 */
+  padding: 0;
+
+  /* 3 */
+  white-space: normal;
+
+  /* 1 */
+}
+
+/**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  display: inline-block;
+
+  /* 1 */
+  vertical-align: baseline;
+
+  /* 2 */
+}
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+
+  /* 1 */
+  padding: 0;
+
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield;
+
+  /* 1 */
+  outline-offset: -2px;
+
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+
+  /* 1 */
+  font: inherit;
+
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ */
+
+details, /* 1 */
+menu {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Scripting
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+canvas {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in IE.
+ */
+
+template {
+  display: none;
+}
+
+/* Hidden
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10-.
+ */
+
+[hidden] {
+  display: none;
+}
+
+/*! React Starter Kit | MIT License | https://www.reactstarterkit.com/ */
+
+:root {
+
+  /*
+   * Typography
+   * ======================================================================== */
+
+  /*
+   * Layout
+   * ======================================================================== */
+
+  /*
+   * Media queries breakpoints
+   * ======================================================================== */
+
+  /* Extra small screen / phone */
+
+  /* Small screen / tablet */
+
+  /* Medium screen / desktop */
+
+  /* Large screen / wide desktop */
+}
+
+/*
+ * Base styles
+ * ========================================================================== */
+
+html {
+  color: #222;
+  font-weight: 100;
+  font-size: 1em; /* ~16px; */
+  font-family: 'Segoe UI', 'HelveticaNeue-Light', sans-serif;
+  line-height: 1.375; /* ~22px */
+}
+
+a {
+  color: #0074c2;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+  resize: vertical;
+}
+
+/*
+ * Browser upgrade prompt
+ * ========================================================================== */
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/*
+ * Print styles
+ * Inlined to avoid the additional HTTP request:
+ * http://www.phpied.com/delay-loading-your-print-css/
+ * ========================================================================== */
+
+@media print {
+  *,
+  *::before,
+  *::after {
+    background: transparent !important;
+    color: #000 !important; /* Black prints faster: http://www.sanbeiji.com/archives/953 */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]::after {
+    content: ' (' attr(href) ')';
+  }
+
+  abbr[title]::after {
+    content: ' (' attr(title) ')';
+  }
+
+  /*
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
+
+  a[href^='#']::after,
+  a[href^='javascript:']::after {
+    content: '';
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /*
+   * Printing Tables:
+   * http://css-discuss.incutio.com/wiki/Printing_Tables
+   */
+
+  thead {
+    display: table-header-group;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  img {
+    max-width: 100% !important;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+:root { /*
+   * Typography
+   * ======================================================================== */ /*
+   * Layout
+   * ======================================================================== */ /*
+   * Media queries breakpoints
+   * ======================================================================== */ /* Extra small screen / phone */ /* Small screen / tablet */ /* Medium screen / desktop */ /* Large screen / wide desktop */
+}
+
+.nav .item {
+  color: white !important;
+  font-weight: 600 !important
+}
+
+.nav .item:first-child {
+  padding: .92857143em 1.14285714em 1.14285714em 3em !important
+}
+
+
+body {
+  font-family: 'Lato', sans-serif !important;
+}
+
+p {
+  font-size: 14.88px !important;
+  font-size: .93rem !important;
+}
+
+.Header-root-AA5IL {
+  background: #373277;
+  color: #fff;
+}
+
+.Header-container-2ArDX {
+  margin: 0 auto;
+  padding: 20px 0;
+  max-width: 1000px;
+}
+
+.Header-brand-w2lzG {
+  color: rgb(146, 229, 252);
+  text-decoration: none;
+  font-size: 1.75em; /* ~28px */
+}
+
+.Header-brandTxt-Qj7O1 {
+  margin-left: 10px;
+}
+
+.Header-nav-2n3qz {
+  float: right;
+  margin-top: 6px;
+}
+
+.Header-banner-2t0Sc {
+  text-align: center;
+}
+
+.Header-bannerTitle-3HrPS {
+  margin: 0;
+  padding: 10px;
+  font-weight: normal;
+  font-size: 4em;
+  line-height: 1em;
+}
+
+.Header-bannerDesc-32d5W {
+  padding: 0;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.25em;
+  margin: 0;
+}
+
+.Header-header-qwX8T {
+  height: 3.5em !important;
+  border-radius: 0 !important;
+  margin-bottom: 0 !important;
+  background: rgba(5, 102, 222, 0.77) !important;
+  border: 0px !important;
+  border-bottom: 1px solid #6d6d6d !important;
+}
+
+.Header-logo-3bkMx {
+  /*
+  border-right: 0 !important;
+  padding: .5em 2em !important;
+  font-size: 1.5rem;
+  transition: all .3s ease-in-out !important;
+  */
+  background: black !important;
+  border-radius: 0 !important;
+  float: left;
+  margin: 0 2em 0 0;
+  width: 10em;
+  height: 110%;
+  position: relative;
+  z-index: 2;
+  color: black
+}
+
+.Header-logo-3bkMx:hover {
+  //background: rgba(235, 248, 29, 0.22) !important
+}
+
+.Header-logo-3bkMx::before {
+  background: #fff;
+  left: -10px;
+  width: 200px;
+  z-index: -1;
+  -webkit-transform: skewX(-30deg) skewY(0);
+  -ms-transform: skewX(-30deg) skewY(0);
+  transform: skewX(-30deg) skewY(0);
+  content: ' ';
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  box-shadow: -4px 3px 6px 0px grey
+}
+
+.Header-logo-3bkMx::after {
+  -webkit-transform: skewX(-30deg) skewY(0);
+  -ms-transform: skewX(-30deg) skewY(0);
+  transform: skewX(-30deg) skewY(0);
+  content: ' ';
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0
+}
+
+.Header-lineContainer-REtK7 {
+  display: none;
+  position: relative;
+  vertical-align: middle;
+  line-height: 1;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  padding: .92857143em 1.14285714em;
+  margin: 0;
+  width: 2.5em;
+  padding: 0;
+  margin-left: 5%;
+  margin-right: -1%;
+  margin-top: -.2em;
+  overflow: hidden;
+}
+
+.Header-line-3lhzi {
+  background:
+    -webkit-linear-gradient(       bottom right,       rgba(0,0,0,0) 0%,       rgba(0,0,0,0) calc(50% - 3px),       rgba(0,0,0,1) 50%,       rgba(0,0,0,0) calc(50% + 3px),       rgba(0,0,0,0) 100%);
+  background:
+    linear-gradient(       to top left,       rgba(0,0,0,0) 0%,       rgba(0,0,0,0) calc(50% - 3px),       rgba(0,0,0,1) 50%,       rgba(0,0,0,0) calc(50% + 3px),       rgba(0,0,0,0) 100%);
+  height: 114%;
+}
+
+.Header-search-qNOZ1 {
+  border-radius: 0 !important;
+}
+:root {
+
+    /*
+   * Typography
+   * ======================================================================== */
+
+    /*
+   * Layout
+   * ======================================================================== */
+
+    /*
+   * Media queries breakpoints
+   * ======================================================================== */
+
+    /* Extra small screen / phone */
+
+    /* Small screen / tablet */
+
+    /* Medium screen / desktop */
+
+    /* Large screen / wide desktop */
+}
+
+.Home-root-3mfpA {
+}
+
+.Home-container-2ac9n {
+}
+.Render-description-JyMb_ {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 3.6em;
+}
+
+.Render-container-1NvVk {
+}
+
+.Render-top-j4VZH {
+  min-height: 40vh;
+  width: 100%;
+  background: url('https://briangaynorphotography.files.wordpress.com/2015/10/the-bridge-to-biloxi.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+}
+
+.Render-filters-2CfjU {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 80%;
+  box-shadow: 0px 0px 8px 1px black;
+  height: 4em
+}
+
+.Render-filters-2CfjU .dropdown {
+  min-width: 20% !important;
+  line-height: 2em !important;
+}
+
+.Render-filters-2CfjU .input {
+  height: 100% !important;
+}
+
+.Render-filters-2CfjU i {
+  position: absolute;
+  top: 50% !important;
+  -webkit-transform: translate(0, -30%) !important;
+      -ms-transform: translate(0, -30%) !important;
+          transform: translate(0, -30%) !important;
+}
+
+.Render-activity-CDFDZ {
+  padding: 1% 2% 2%;
+  box-shadow: 0px 0px 3px 3px rgba(9, 9, 9, 0.4);
+  border: 1px solid #c9c9c9;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: -5em;
+  z-index: 2;
+  background: white;
+  //min-height: 50em;
+  border-radius: 3px;
+  position: relative;
+}
+
+.Render-activityTitle-2Q0_d {
+  display: inline-block;
+  padding-bottom: .4em;
+  position: relative
+}
+
+.Render-activityTitle-2Q0_d::after {
+  content: '';
+  height: 5px;
+  width: 110%;
+  left: 0;
+  background: #3d88e5;
+  bottom: 0;
+  position: absolute;
+}
+
+.Render-sliderItem-PoZvq {
+  margin: 10px;
+  overflow: hidden;
+  color: black !important;
+  cursor: pointer;
+  border: 1px solid grey;
+  box-shadow: 0 2px 1px -1px #464646
+}
+
+.Render-sliderItem-PoZvq:hover {
+}
+
+.Render-sliderItem-PoZvq:hover .Render-title-Ub8x_ {
+  width: 100%;
+  max-width: 100%;
+}
+
+.Render-sliderItem-PoZvq .Render-image-1Tkqi {
+  background: url('https://upload.wikimedia.org/wikipedia/commons/1/1c/BiloxiLightHouseandVisitorsCenter.jpg');
+  background-size: cover;
+  height: 9em;
+  width: 100%;
+  position: relative;
+}
+
+.Render-sliderItem-PoZvq .Render-title-Ub8x_ {
+  position: absolute;
+  right: 0;
+  bottom: 25%;
+  background: white;
+  padding: 1% 1% 1% 2%;
+  border: 1px solid black;
+  box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.49), inset 5px 0px 0px 0px #f9ff00, inset 7px 0px 0px 0px #000000;
+  //width: 40%;
+  min-width: 40%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 40%;
+  //max-width: 999999px;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.Render-sliderItem-PoZvq .Render-meta-M5tD2 {
+  padding: .4em;
+  background: whitesmoke;
+  font-size: 16.8px;
+  font-size: 1.05rem;
+}
+
+.Render-sliderItem-PoZvq .Render-meta-M5tD2:not(:last-child) {
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.Render-sliderItem-PoZvq .Render-childTitle-32-ps {
+  font-size: 20.8px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-right: .7em;
+}
+
+.Render-titleWrapper-3GsSl {
+  text-align: center;
+  margin-bottom: 2em
+}
+
+.Render-titleWrapper-3GsSl h2 {
+  position: relative;
+  display: inline-block;
+}
+
+.Render-titleWrapper-3GsSl h2::before {
+  content: '';
+  position: absolute;
+  width: 25%;
+  height: 5px;
+  background: #3d88e5;
+  top: 50%;
+  left: -30%;
+  -webkit-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+}
+
+.Render-titleWrapper-3GsSl h2::after {
+  content: '';
+  position: absolute;
+  width: 25%;
+  height: 5px;
+  background: #3d88e5;
+  top: 50%;
+  right: -30%;
+  -webkit-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+}
+
+.Render-bottom-3YKhR {
+  background: #f5f5f599;
+}
+
+.Render-more-1ON6k {
+  padding: 2% 0;
+  background: #f5f5f599;
+}
+
+.Render-moreOptions-9ixDw {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.Render-option-oJtcm {
+  -webkit-flex-basis: 20%;
+      -ms-flex-preferred-size: 20%;
+          flex-basis: 20%;
+  text-align: center;
+  padding: 2%;
+  margin-bottom: 2em
+}
+
+.Render-option-oJtcm .Render-inner-3a-AA {
+  color: black !important;
+  cursor: pointer;
+  display: block;
+  min-height: 20em;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 3px;
+  overflow: hidden;
+  min-width: 15em;
+}
+
+.Render-option-oJtcm .Render-inner-3a-AA:hover {
+}
+
+.Render-option-oJtcm .Render-inner-3a-AA:hover .Render-moreImg-3DnoL {
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" /></filter></svg>#filter');
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.Render-option-oJtcm .Render-inner-3a-AA:hover .Render-moreImg-3DnoL::after {
+  background: rgba(0, 0, 0, 0);
+}
+
+.Render-option-oJtcm .Render-moreImg-3DnoL {
+  background: url('https://lh3.ggpht.com/-nim2k817X_o/WAboUAcvHaI/AAAAAAAAArU/E4aq4PC-y34vbPA0MqOTZgPniXOkXeiYQCLIB/s512/photo');
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.72441 0.25032 0.02527 0 0 0.07441 0.90032 0.02527 0 0 0.07441 0.25032 0.67527 0 0 0 0 0 1 0" /></filter></svg>#filter');
+  -webkit-filter: grayscale(35%);
+          filter: grayscale(35%);
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.Render-option-oJtcm .Render-moreImg-3DnoL::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.28);
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.Render-option-oJtcm span {
+  color: white;
+  font-weight: 600;
+  font-size: 32px;
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-shadow: 0px 0.5px 0.5px black,0px 0.5px 0.5px black,0px 0.5px 0.5px black,0px 0.5px 0.5px black,0px 0.5px 0.5px black,0px 0.5px 0.5px black;
+  line-height: 40px;
+  line-height: 2.5rem;
+}
+:root {
+  /*
+   * Typography
+   * ======================================================================== */
+  /*
+   * Layout
+   * ======================================================================== */
+  /*
+   * Media queries breakpoints
+   * ======================================================================== */
+  /* Extra small screen / phone */
+  /* Small screen / tablet */
+  /* Medium screen / desktop */
+  /* Large screen / wide desktop */
+}
+
+.Footer-root-3mW2N {
+  background: #333;
+  color: #fff;
+}
+
+.Footer-container-3k8Ku {
+  margin: 0 auto;
+  padding: 20px 15px;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.Footer-text-jehzH {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.Footer-spacer-2eiJ2 {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.Footer-text-jehzH,
+.Footer-link-2Cgkt {
+  padding: 2px 5px;
+  font-size: 1em;
+}
+
+.Footer-link-2Cgkt,
+.Footer-link-2Cgkt:active,
+.Footer-link-2Cgkt:visited {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.Footer-link-2Cgkt:hover {
+  color: rgba(255, 255, 255, 1);
+}
+</style></head><body><div id="app"><div data-reactroot="" data-reactid="1" data-react-checksum="-174752997"><div class="ui Header-header-qwX8T nav menu" data-reactid="2"><a href="/" class="Header-logo-3bkMx" data-reactid="3">SouthMS</a><a href="/" class="item" data-reactid="4">Home</a><a href="/jobs" class="item" data-reactid="5">Jobs</a><a href="/events" class="item" data-reactid="6">Events</a><a href="/real-estates" class="item" data-reactid="7">Real Estate</a><a href="/things-to-do" class="item" data-reactid="8">Things To Do</a><a href="/golf-courses" class="item" data-reactid="9">Golf Courses</a><a href="/accommodations" class="item" data-reactid="10">Accommodations</a><a href="/restaurants" class="item" data-reactid="11">Restaurants</a><a href="/vehicles" class="item" data-reactid="12">Vehicles</a><a href="/casinos" class="item" data-reactid="13">Casinos</a><div role="listbox" aria-expanded="false" class="ui item dropdown" tabindex="0" data-reactid="14"><div class="text" data-reactid="15">Cities</div><i aria-hidden="true" class="dropdown icon" data-reactid="16"></i><div class="menu transition" data-reactid="17"></div></div></div><div class="Home-root-3mfpA" data-reactid="18"><div class="Home-container-2ac9n" data-reactid="19"><div data-reactid="20"><div class="Render-container-1NvVk" data-reactid="21"><div class="Render-top-j4VZH" data-reactid="22"><div class="Render-filters-2CfjU" data-reactid="23"><div class="ui action fluid input" data-reactid="24"><input type="text" placeholder="Search..." data-reactid="25"/><div role="listbox" aria-expanded="false" class="ui compact selection dropdown" tabindex="0" data-reactid="26"><select type="hidden" aria-hidden="true" data-reactid="27"><option value="" data-reactid="28"></option><option value="all" data-reactid="29">All</option><option selected="" value="articles" data-reactid="30">Articles</option><option value="products" data-reactid="31">Products</option></select><div class="text" data-reactid="32">Articles</div><i aria-hidden="true" class="dropdown icon" data-reactid="33"></i><div class="menu transition" data-reactid="34"><div style="pointer-events:all;" role="option" aria-checked="false" aria-selected="false" class="item" data-reactid="35"><!-- react-text: 36 -->All<!-- /react-text --></div><div style="pointer-events:all;" role="option" aria-checked="true" aria-selected="true" class="active selected item" data-reactid="37"><!-- react-text: 38 -->Articles<!-- /react-text --></div><div style="pointer-events:all;" role="option" aria-checked="false" aria-selected="false" class="item" data-reactid="39"><!-- react-text: 40 -->Products<!-- /react-text --></div></div></div><div role="listbox" aria-expanded="false" class="ui compact selection dropdown" tabindex="0" data-reactid="41"><select type="hidden" aria-hidden="true" data-reactid="42"><option value="" data-reactid="43"></option><option value="all" data-reactid="44">All</option><option value="articles" data-reactid="45">Articles</option><option selected="" value="products" data-reactid="46">Products</option></select><div class="text" data-reactid="47">Products</div><i aria-hidden="true" class="dropdown icon" data-reactid="48"></i><div class="menu transition" data-reactid="49"><div style="pointer-events:all;" role="option" aria-checked="false" aria-selected="false" class="item" data-reactid="50"><!-- react-text: 51 -->All<!-- /react-text --></div><div style="pointer-events:all;" role="option" aria-checked="false" aria-selected="false" class="item" data-reactid="52"><!-- react-text: 53 -->Articles<!-- /react-text --></div><div style="pointer-events:all;" role="option" aria-checked="true" aria-selected="true" class="active selected item" data-reactid="54"><!-- react-text: 55 -->Products<!-- /react-text --></div></div></div></div></div></div><div class="Render-bottom-3YKhR" data-reactid="56"><div class="Render-activity-CDFDZ" data-reactid="57"><h2 class="Render-activityTitle-2Q0_d" data-reactid="58">New Events</h2><div data-reactid="59"><div class="slick-initialized slick-slider" data-reactid="60"><button type="button" data-role="none" class="slick-arrow slick-prev slick-disabled" style="display:block;" data-reactid="61"> Previous</button><div class="slick-list" data-reactid="62"><div class="slick-track" data-reactid="63"><a class="slick-slide slick-active slick-cloned Render-sliderItem-PoZvq" data-index="0" tabindex="-1" style="outline:none;" data-reactid="64"><div class="Render-image-1Tkqi" data-reactid="65"><h3 class="Render-title-Ub8x_" data-reactid="66">Event 1</h3></div><div class="Render-meta-M5tD2" data-reactid="67"><span class="Render-childTitle-32-ps" data-reactid="68">When:</span><!-- react-text: 69 -->4:00PM<!-- /react-text --></div><div class="Render-meta-M5tD2" data-reactid="70"><span class="Render-childTitle-32-ps" data-reactid="71">Where:</span><!-- react-text: 72 -->Ocean Springs<!-- /react-text --></div></a><a class="slick-slide slick-active slick-cloned Render-sliderItem-PoZvq" data-index="1" tabindex="-1" style="outline:none;" data-reactid="73"><div class="Render-image-1Tkqi" data-reactid="74"><h3 class="Render-title-Ub8x_" data-reactid="75">Another Event</h3></div><div class="Render-meta-M5tD2" data-reactid="76"><span class="Render-childTitle-32-ps" data-reactid="77">When:</span><!-- react-text: 78 -->9:00AM<!-- /react-text --></div><div class="Render-meta-M5tD2" data-reactid="79"><span class="Render-childTitle-32-ps" data-reactid="80">Where:</span><!-- react-text: 81 -->Biloxi<!-- /react-text --></div></a><a class="slick-slide slick-active slick-cloned Render-sliderItem-PoZvq" data-index="2" tabindex="-1" style="outline:none;" data-reactid="82"><div class="Render-image-1Tkqi" data-reactid="83"><h3 class="Render-title-Ub8x_" data-reactid="84">More</h3></div><div class="Render-meta-M5tD2" data-reactid="85"><span class="Render-childTitle-32-ps" data-reactid="86">When:</span><!-- react-text: 87 -->8:00PM<!-- /react-text --></div><div class="Render-meta-M5tD2" data-reactid="88"><span class="Render-childTitle-32-ps" data-reactid="89">Where:</span><!-- react-text: 90 -->Ocean Springs<!-- /react-text --></div></a></div></div><button type="button" data-role="none" class="slick-arrow slick-next slick-disabled" style="display:block;" data-reactid="91"> Next</button></div></div></div></div><div class="Render-more-1ON6k" data-reactid="92"><div class="Render-titleWrapper-3GsSl" data-reactid="93"><h2 data-reactid="94">What are you looking for?</h2></div><div class="Render-moreOptions-9ixDw" data-reactid="95"><div class="Render-option-oJtcm" data-reactid="96"><a class="Render-inner-3a-AA" data-reactid="97"><div class="Render-moreImg-3DnoL" data-reactid="98"></div><span data-reactid="99">Jobs</span></a></div><div class="Render-option-oJtcm" data-reactid="100"><a class="Render-inner-3a-AA" data-reactid="101"><div class="Render-moreImg-3DnoL" data-reactid="102"></div><span data-reactid="103">Lodging</span></a></div><div class="Render-option-oJtcm" data-reactid="104"><a class="Render-inner-3a-AA" data-reactid="105"><div class="Render-moreImg-3DnoL" data-reactid="106"></div><span data-reactid="107">Things to do</span></a></div><div class="Render-option-oJtcm" data-reactid="108"><a class="Render-inner-3a-AA" data-reactid="109"><div class="Render-moreImg-3DnoL" data-reactid="110"></div><span data-reactid="111">Events</span></a></div><div class="Render-option-oJtcm" data-reactid="112"><a class="Render-inner-3a-AA" data-reactid="113"><div class="Render-moreImg-3DnoL" data-reactid="114"></div><span data-reactid="115">Restaurants</span></a></div><div class="Render-option-oJtcm" data-reactid="116"><a class="Render-inner-3a-AA" data-reactid="117"><div class="Render-moreImg-3DnoL" data-reactid="118"></div><span data-reactid="119">Real Estate</span></a></div><div class="Render-option-oJtcm" data-reactid="120"><a class="Render-inner-3a-AA" data-reactid="121"><div class="Render-moreImg-3DnoL" data-reactid="122"></div><span data-reactid="123">Classifieds</span></a></div></div></div></div></div></div></div><div class="Footer-root-3mW2N" data-reactid="124"></div></div></div><script src="/assets/vendor.js"></script><script src="/assets/client.js"></script></body></html>
